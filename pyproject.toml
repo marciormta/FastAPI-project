@@ -9,7 +9,7 @@ readme = "README.md"
 python = "^3.12"
 fastapi = {extras = ["standard"], version = "^0.112.2"}
 ignr = "^2.2"
-
+pydantic = {extras = ["email"], version = "^2.9.0"}
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.6.3"
